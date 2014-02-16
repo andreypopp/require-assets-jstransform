@@ -1,0 +1,35 @@
+{
+  "name": "require-assets-jstransform",
+  "version": "0.0.0",
+  "description": "jstransform visitor to rewrite requireAssets calls",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/andreypopp/require-assets-jstransform"
+  },
+  "keywords": [
+    "require-assets",
+    "jstransform"
+  ],
+  "author": "Andrey Popp <8mayday@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andreypopp/require-assets-jstransform/issues"
+  },
+  "homepage": "https://github.com/andreypopp/require-assets-jstransform",
+  "peerDependencies": {
+    "require-assets": "*"
+  },
+  "dependencies": {
+    "esprima-fb": "~3001.1.0-dev-harmony-fb",
+    "jstransform": "~3.0.0"
+  },
+  "devDependencies": {
+    "semver": "~2.2.1",
+    "mocha": "~1.17.1",
+    "jshint": "~2.4.3"
+  }
+}
